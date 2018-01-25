@@ -9,6 +9,11 @@ public class TestFizzBuzz {
 	
 	@Test
 	public void testNumber() {
-		Assert.assertEquals(fizzBuzz.evaluteFizzBuzzNumber(1), "1");
+		Assert.assertEquals("1", fizzBuzz.evaluteFizzBuzzNumber(1));
+	}
+	
+	@Test
+	public void testMultiple3() {
+	    Assert.assertEquals("fizz", fizzBuzz.evaluteFizzBuzzNumber(3));
 	}
 }

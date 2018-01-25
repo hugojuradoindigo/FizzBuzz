@@ -21,4 +21,9 @@ public class TestFizzBuzz {
 	public void testMultiple5() {
 	    Assert.assertEquals("buzz", fizzBuzz.evaluteFizzBuzzNumber(5));
 	}
+	
+	@Test
+    public void testMultiple3Y5() {
+        Assert.assertEquals("fizzbuzz", fizzBuzz.evaluteFizzBuzzNumber(15));
+    }
 }
